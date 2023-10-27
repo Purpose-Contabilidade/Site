@@ -72,12 +72,12 @@ Version: 1.0.0
 /*------------------- 1.2. Function -------------------*/
 /*------------------- 1.3. Variable-------------------*/
 :root {
-  --theme-color: #0E5AF2;
+  --theme-color: #800080;
   --title-color: #1A1A1A;
   --body-color: #878D97;
   --smoke-color: #EFF1F5;
   --secondary-color: #EEF2FB;
-  --black-color: #000000;
+  --black-color: #800080;
   --white-color: #ffffff;
   --yellow-color: #fec624;
   --success-color: #28a745;
@@ -96,7 +96,7 @@ Version: 1.0.0
 
 .home-five,
 .home-four {
-  --theme-color: #0037ff;
+  --theme-color: #440e54;
   --smoke-color: #f6f7fc;
 }
 
@@ -4288,11 +4288,20 @@ a.text-theme:hover,
 }
 
 .logo-style1 {
-  background: linear-gradient(278.46deg, #00BCFA 0.91%, #0E59F2 71.89%, #0E59F2 100%);
-  padding: 30px 35px 30px 35px;
+  background: #440e54;
+  padding: 55px 50px 54px 50px;
   border-radius: 5px 0px 0px 5px;
   line-height: 0;
-  margin: -1px 0;
+  margin: -1px 0;  
+}
+
+.logo-style1 a{
+  padding: 19px 30.5px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--white-color);
+  font-family: var(--body-font);
+  font-size: 16px;
 }
 
 .header-btns {
